@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Leather Backpack",
+    "price": 79.99,
+    "description": "A durable full-grain leather backpack with padded laptop compartment, perfect for daily commutes or weekend trips.",
+    "category": "accessories",
+    "image": "https://picsum.photos/seed/revoshop1/600/600"
+  },
+  {
+    "id": 2,
+    "title": "Wireless Noise-Cancelling Headphones",
+    "price": 149.5,
+    "description": "Over-ear headphones with active noise cancellation, 30-hour battery life, and plush memory-foam ear cushions.",
+    "category": "electronics",
+    "image": "https://picsum.photos/seed/revoshop2/600/600"
+  },
+  {
+    "id": 3,
+    "title": "Men's Slim Fit Denim Jacket",
+    "price": 59,
+    "description": "A timeless denim jacket with a modern slim fit, reinforced stitching, and button-flap chest pockets.",
+    "category": "men's clothing",
+    "image": "https://picsum.photos/seed/revoshop3/600/600"
+  },
+  {
+    "id": 4,
+    "title": "Women's Running Sneakers",
+    "price": 89.95,
+    "description": "Lightweight breathable mesh sneakers engineered for daily runs, with responsive cushioning and arch support.",
+    "category": "women's clothing",
+    "image": "https://picsum.photos/seed/revoshop4/600/600"
+  },
+  {
+    "id": 5,
+    "title": "Stainless Steel Smart Watch",
+    "price": 199.99,
+    "description": "Track your fitness, heart rate, and notifications with this sleek stainless steel smart watch, water-resistant to 50m.",
+    "category": "electronics",
+    "image": "https://picsum.photos/seed/revoshop5/600/600"
+  },
+  {
+    "id": 6,
+    "title": "Ceramic Pour-Over Coffee Set",
+    "price": 34.5,
+    "description": "A minimalist ceramic pour-over dripper and carafe set for brewing smooth, full-bodied coffee at home.",
+    "category": "home",
+    "image": "https://picsum.photos/seed/revoshop6/600/600"
+  },
+  {
+    "id": 7,
+    "title": "Polarized Aviator Sunglasses",
+    "price": 45,
+    "description": "UV400 polarized lenses in a classic aviator frame, reducing glare while keeping you stylish all summer.",
+    "category": "accessories",
+    "image": "https://picsum.photos/seed/revoshop7/600/600"
+  },
+  {
+    "id": 8,
+    "title": "Women's Wool Blend Coat",
+    "price": 129,
+    "description": "A tailored wool-blend coat with a cinched waist, perfect for layering through the colder months.",
+    "category": "women's clothing",
+    "image": "https://picsum.photos/seed/revoshop8/600/600"
+  },
+  {
+    "id": 9,
+    "title": "Portable Bluetooth Speaker",
+    "price": 39.99,
+    "description": "Compact, splash-proof speaker with 12 hours of playtime and rich, room-filling sound.",
+    "category": "electronics",
+    "image": "https://picsum.photos/seed/revoshop9/600/600"
+  },
+  {
+    "id": 10,
+    "title": "Men's Cotton Oxford Shirt",
+    "price": 42,
+    "description": "A breathable cotton Oxford shirt with a classic collar, tailored fit, and versatile styling for work or weekends.",
+    "category": "men's clothing",
+    "image": "https://picsum.photos/seed/revoshop10/600/600"
+  },
+  {
+    "id": 11,
+    "title": "Cast Iron Skillet 12-inch",
+    "price": 54.99,
+    "description": "Pre-seasoned cast iron skillet that delivers even heat distribution for searing, baking, and frying.",
+    "category": "home",
+    "image": "https://picsum.photos/seed/revoshop11/600/600"
+  },
+  {
+    "id": 12,
+    "title": "Minimalist Analog Wrist Watch",
+    "price": 65,
+    "description": "A slim-profile analog watch with a genuine leather strap and scratch-resistant sapphire crystal glass.",
+    "category": "accessories",
+    "image": "https://picsum.photos/seed/revoshop12/600/600"
+  },
+  {
+    "id": 13,
+    "title": "jam tangan",
+    "price": 30.49,
+    "description": "jam rolex",
+    "category": "electronics",
+    "image": "https://picsum.photos/seed/revoshop13/600/600"
+  }
+]
