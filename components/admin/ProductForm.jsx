@@ -15,8 +15,38 @@ export default function ProductForm({ initialValues, onSubmit, onCancel, submitL
     e.preventDefault();
     setError(null);
 
-    if (!form.title.trim() || form.price === '' || Number(form.price) < 0) {
-      setError('Please provide a valid title and price.');
+    if (!form.title.trim()) {
+      setError('Please provide a product title.');
+      return;
+    }
+
+    if (form.price === '' || Number.isNaN(Number(form.price)) || Number(form.price) < 0) {
+      setError('Please provide a valid price (0 or greater).');
+      return;
+    }
+
+    if (!form.description.trim()) {
+      setError('Please provide a product description.');
+      return;
+    }
+
+    if (form.description.trim().length < 10) {
+      setError('Description should be at least 10 characters.');
+      return;
+    }
+
+    if (!form.category.trim()) {
+      setError('Please provide a category.');
+      return;
+    }
+
+    if (!form.image.trim()) {
+      setError('Please provide an image URL.');
+      return;
+    }
+
+    if (!/^https?:\/\/.+/i.test(form.image.trim())) {
+      setError('Image URL must start with http:// or https://');
       return;
     }
 
@@ -26,7 +56,7 @@ export default function ProductForm({ initialValues, onSubmit, onCancel, submitL
         title: form.title.trim(),
         price: Number(form.price),
         description: form.description.trim(),
-        category: form.category.trim() || 'general',
+        category: form.category.trim(),
         image: form.image.trim(),
       });
     } catch (err) {
