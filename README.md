@@ -35,3 +35,7 @@ Route access is enforced server-side via Next.js middleware, which protects `/ca
 - **[FakeStoreAPI](https://fakestoreapi.com/)** — External REST API used for product data and user authentication.
 - **Node.js `fs` module** — Simple file-based persistence for the admin-managed product catalog (`data/products.json`).
 - **PostCSS & Autoprefixer** — CSS processing pipeline for Tailwind.
+
+
+## 4. Preview Website
+https://milestone-3-rizki0809-d.vercel.app/

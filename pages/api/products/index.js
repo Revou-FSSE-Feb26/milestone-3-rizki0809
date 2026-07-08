@@ -1,5 +1,9 @@
 import { getProducts, createProduct } from '@/lib/db';
 
+function isAdmin(req) {
+  return req.cookies?.revoshop_token && req.cookies?.revoshop_role === 'admin';
+}
+
 export default function handler(req, res) {
   if (req.method === 'GET') {
     const products = getProducts();
@@ -7,6 +11,9 @@ export default function handler(req, res) {
   }
 
   if (req.method === 'POST') {
+    if (!isAdmin(req)) {
+      return res.status(401).json({ message: 'Admin authentication required' });
+    }
     const { title, price, description, category, image } = req.body || {};
     if (!title || price === undefined || price === null) {
       return res.status(400).json({ message: 'title and price are required' });
