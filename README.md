@@ -36,6 +36,9 @@ Route access is enforced server-side via Next.js middleware, which protects `/ca
 - **Node.js `fs` module** — Simple file-based persistence for the admin-managed product catalog (`data/products.json`).
 - **PostCSS & Autoprefixer** — CSS processing pipeline for Tailwind.
 
+## 4. Preview Website
+https://milestone-3-rizki0809-d.vercel.app/
+
 
 ## 4. Preview Website
 https://milestone-3-rizki0809-d.vercel.app/
